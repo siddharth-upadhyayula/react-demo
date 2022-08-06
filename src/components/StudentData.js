@@ -37,6 +37,8 @@ function TableData () {
                         <td>{item.name}</td>
                         <td>{item.ssn}</td>
                         <td>{item.university}</td>
+                        <td>{`${item.address.buildingNbr}, ${item.address.streetName}, ${item.address.city}, ${item.address.state}, 
+                        ${item.address.country}, ${item.address.pincode}`}</td>
                     </tr>
                 ))}
             </tbody>
